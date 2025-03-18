@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- @Author: Priyansh Kavani, 000881868; -->
+    <title>Ball Bounce</title>
+    <link rel="stylesheet" href="css.css">
+    
+</head>
+<body>
+  <header>
+    <h1>Assignment 4</h1>
+    <h2>Ball Bounce</h2>
+  </header>
+  <div id="grid">
+    <div id="rules">
+      <div id="rules1">
+        <p id="P1">Choose any color from the input box and click enter from keyboard.</p>
+        <p id="P2">Click in the circle or press arrow down to drop the circle from top.</p>
+        <p id="P3">Counter will count how many times the ball has been dropped from top.</p>
+        <p id="P4">Click on Add a ball to add a small ball on background.</p>
+      </div>
+    </div>
+    <div>
+      <input type="color" name="input" id="color" onchange="colorChange()">
+      <svg width="400" height="400" id="mySvg">
+        <circle id="circle" cx="200" cy="350" r="20" stroke="black" stroke-width="3" />
+        <polygon points="0,370 0,400 400,400 400,370" fill="green"></polygon>
+      </svg>
+      <button onclick="addBall()">Add a ball</button>
+        <div id="cssCount"><p>Count: <span id = "counter">0</span></p></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&#169; Priyansh Kavani, 2023</p>
+  </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>

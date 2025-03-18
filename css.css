@@ -1,0 +1,47 @@
+/* @Author: Priyansh Kavani, 000881868; */
+body{
+    font-family: Arial, Helvetica, sans-serif, verdana;
+    background-image: url(ricepaper.png);
+}
+header{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+#rules{
+    text-align: center;
+    align-items: center;
+}
+#rules1{
+    margin-top: 140px;
+    padding: 20px 0px;
+    background-color: #ECAE27;
+}
+#P1{
+    color: red;
+}
+#P2{
+    color: blue;
+}
+#P3{
+    color: green;
+}
+#P4{
+    color: yellow;
+}
+#cssCount{
+    padding-left: 230px;
+}
+svg{
+    border: 5px solid black;
+    background-color: lightblue;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer{
+    text-align: center;
+    font-size: 0.75em;
+    border-top: 1px solid black;
+}
